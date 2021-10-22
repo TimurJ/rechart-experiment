@@ -31,7 +31,7 @@ function App() {
   return (
     <div className="chart">
       <LineChart width={1000} height={477}>
-        <CartesianGrid stroke="#eaebeb" verticalFill={["#e6e6e680", "#ffffff00"]} />
+        <CartesianGrid stroke="#eaebeb" strokeWidth={0.8} verticalFill={["#ededed90", "#ffffff00"]} />
 
         <YAxis
           stroke="#eaebeb"
