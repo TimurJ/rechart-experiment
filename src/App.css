@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.recharts-wrapper .recharts-cartesian-grid-horizontal line:first-child,
+.recharts-wrapper .recharts-cartesian-grid-horizontal line:last-child {
+  stroke-opacity: 0;
+}
+
+.chart {
+  display: flex;
+  max-width: 980px;
+  height: 437px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
